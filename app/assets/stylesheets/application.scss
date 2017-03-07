@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+@import "bootstrap";
+
+/* style for application */
+
+body {
+    background-color: rgb(235,235,235);
+    font-size: 14px;
+}
