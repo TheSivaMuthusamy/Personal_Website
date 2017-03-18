@@ -20,4 +20,41 @@
 body {
     background-color: rgb(235,235,235);
     font-size: 14px;
+    margin-top: 8px;
+    .container {
+        margin: 0 auto;
+        background-color: white;
+        border-radius: 20px;
+        overflow: hidden;
+        padding: 0px;         
+    }
+}
+
+.header {
+    background-color: black;
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    padding: 20px 0 20px 0;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 45px auto 45px auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-top: 1rem;
+}
+
+.content {
+    width: 90%;
+    margin: 0 auto;
+    text-align: justify;
 }
