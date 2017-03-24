@@ -1,0 +1,7 @@
+.text-center
+    %h2
+        = post.title
+    %h6
+        = time_ago_in_words post.created_at
+.post-body
+    = raw post.body

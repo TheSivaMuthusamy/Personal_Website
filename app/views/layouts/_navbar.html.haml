@@ -1,3 +1,17 @@
-%nav.navbar.navbar-inverse
-  .container-fluid.navbar-container
+%nav.navbar.navbar-toggleable-sm.navbar-inverse.bg-inverse
+  %button.navbar-toggler{"data-target" => "#bs-navbar-collapse-1", "data-toggle" => "collapse", type: "button"}
+    %span.navbar-toggler-icon
+  .collapse.navbar-collapse#bs-navbar-collapse-1
+    %ul.navbar-nav
+      %li.nav-item
+        %a.nav-link{ :href => "#" }= "Test"
+      %li.nav-item
+        %a.nav-link{ :href => "#" }= "Test"
+      %li.nav-item#search  
+        %form.form-inline
+          %input.form-control{type: "text", placeholder: "search"}
+      %li.nav-item
+        %a.nav-link{ :href => "#" }= "Test"
+      %li.nav-item
+        %a.nav-link{ :href => "#" }= "Test"
     

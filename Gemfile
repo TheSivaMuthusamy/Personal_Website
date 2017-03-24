@@ -36,6 +36,9 @@ gem 'haml'
 gem 'haml-rails'
 gem 'html2haml'
 gem 'bootstrap'
+gem 'simple_form'
+gem 'paperclip'
+gem 'ckeditor'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri

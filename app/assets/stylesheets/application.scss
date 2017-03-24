@@ -32,6 +32,7 @@ body {
 
 .header {
     background-color: black;
+    padding-bottom: 7px;
     a {
         color: white;
         text-decoration: none;
@@ -58,3 +59,20 @@ body {
     margin: 0 auto;
     text-align: justify;
 }
+
+.navbar-nav {
+    width: 100%;
+}
+
+.nav-item{
+   width: 17%;
+   text-align: center;
+}
+
+#search {
+    width: 32%;
+    input {
+        width: 100%;
+    }
+}
+

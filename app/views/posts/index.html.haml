@@ -1,0 +1,11 @@
+-@posts.each do |post|
+    .text-center
+        %h2
+            = post.title
+        %h6
+            = time_ago_in_words post.created_at
+    .post-body
+        = raw post.body.truncate(358)
+    .text-center
+        = link_to "Readmore", post_path(post)
+        
