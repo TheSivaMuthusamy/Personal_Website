@@ -13,6 +13,8 @@
         %h1
           = link_to "Ace-Ghost", root_path
       = render 'layouts/navbar'
+      -flash.each do |name, msg|
+        = content_tag :div, msg, class: [:alert, alert_for(name)]
       .wrapper
         .content
           = yield

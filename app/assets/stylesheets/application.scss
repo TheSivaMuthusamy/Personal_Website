@@ -76,3 +76,22 @@ body {
     }
 }
 
+.has-error {
+    span {
+        color: #a94442;
+    }
+}
+
+.help-block {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.has-error {
+    .form-control{
+        border-color: #a94442;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    }
+}
